@@ -92,4 +92,42 @@ a:hover{
     border-radius: 0px 6px 6px 0px;
     -webkit-border-radius: 0px 6px 6px 0px;
 }
+.estatisticas{
+    background-color: #fff;
+    max-width: 960px;
+    width: 90%;
+    padding: 30px 0;
+    margin: -30px auto 0 auto;
+    text-align: center;
+    display: flex;
+    display:-webkit-flex;
+    border-radius: 10px;
+    align-items: center;
+    -webkit-border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, .3);
+}
+.estatisticas-item span{
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.estatisticas-item p{
+    font-size: 25px;
+    font-weight: bold;
+}
 /* END SECTION ---------------------------------------------------------------------*/
+
+/* BREAKPOINTS MAX E MIN */
+
+@media (max-width: 667px){
+    .estatisticas{
+        flex-direction: column;
+    }
+    .estatisticas-item{
+        min-width: 90%;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ccc;
+    }
+}
