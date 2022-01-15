@@ -28,3 +28,68 @@ a:hover{
     color: #f9014d;
 }
 /* RESET END ---------------------------------------------------------------------- */
+
+
+/* START HEADER --------------------------------------------------------------------*/
+.header{
+    background-color: lightblue;
+}
+/* END READER ----------------------------------------------------------------------*/
+
+
+/* STAR SECTION --------------------------------------------------------------------*/
+.section{
+    float: left;
+    width: 100%;
+    background-color: seagreen;
+    
+
+}
+.search-box{
+    text-align: center;
+    color: #fff;
+    padding: 100px;
+    background-image: url(../imagens/bg-search.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.search-box h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.search-box .tagline{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.search-box form{
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    max-width: 500px;
+    margin-top: 40px;
+}
+.search-box form input[type="search"]{
+    width: 100%;
+    height: 50px;
+    font-size: inherit;
+    color: #2c3e50;
+    padding: 0 70px 0 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+.search-box form button{
+    background-color: #a70606;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    border-radius: 0px 6px 6px 0px;
+    -webkit-border-radius: 0px 6px 6px 0px;
+}
+/* END SECTION ---------------------------------------------------------------------*/
